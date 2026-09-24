@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1890 810" width="1890" height="810" role="img" aria-label="城市脉搏：城市实时交通与天气数据可视化大屏示意，含指标卡、粒子地图与趋势图">
+  <rect width="1890" height="810" fill="#f7f5f0"/>
+  <rect x="70" y="70" width="1750" height="670" rx="12" fill="#17150f"/>
+
+  <!-- 标题 -->
+  <text x="110" y="142" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="40" font-weight="700" fill="#f7f5f0">城市脉搏 · 实时交通与天气</text>
+  <text x="110" y="180" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#8d8880">多数据源轮询聚合 · 响应式大屏</text>
+
+  <!-- 左侧指标 -->
+  <rect x="110" y="222" width="360" height="80" rx="10" fill="#221f18" stroke="#3a362e" stroke-width="2"/>
+  <text x="134" y="256" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#a29c92">拥堵指数</text>
+  <text x="134" y="290" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#d43a1f">1.8</text>
+  <rect x="110" y="322" width="360" height="80" rx="10" fill="#221f18" stroke="#3a362e" stroke-width="2"/>
+  <text x="134" y="356" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#a29c92">实时气温</text>
+  <text x="134" y="390" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#f7f5f0">27°C</text>
+  <rect x="110" y="422" width="360" height="80" rx="10" fill="#221f18" stroke="#3a362e" stroke-width="2"/>
+  <text x="134" y="456" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#a29c92">空气质量</text>
+  <text x="134" y="490" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#f7f5f0">62</text>
+  <text x="110" y="556" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#a29c92">数据源轮询</text>
+  <circle cx="118" cy="592" r="5" fill="#d43a1f"/>
+  <text x="134" y="599" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#8d8880">交通 · 天气 · 城市运行</text>
+  <circle cx="118" cy="632" r="5" fill="#e8a33d"/>
+  <text x="134" y="639" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#8d8880">每 30 秒刷新</text>
+
+  <!-- 中部粒子地图 -->
+  <rect x="520" y="200" width="840" height="480" rx="10" fill="#1d1a14" stroke="#322e26" stroke-width="2"/>
+  <g stroke="#2c2820" stroke-width="1">
+    <line x1="604" y1="200" x2="604" y2="680"/>
+    <line x1="688" y1="200" x2="688" y2="680"/>
+    <line x1="772" y1="200" x2="772" y2="680"/>
+    <line x1="856" y1="200" x2="856" y2="680"/>
+    <line x1="940" y1="200" x2="940" y2="680"/>
+    <line x1="1024" y1="200" x2="1024" y2="680"/>
+    <line x1="1108" y1="200" x2="1108" y2="680"/>
+    <line x1="1192" y1="200" x2="1192" y2="680"/>
+    <line x1="1276" y1="200" x2="1276" y2="680"/>
+    <line x1="520" y1="280" x2="1360" y2="280"/>
+    <line x1="520" y1="360" x2="1360" y2="360"/>
+    <line x1="520" y1="440" x2="1360" y2="440"/>
+    <line x1="520" y1="520" x2="1360" y2="520"/>
+    <line x1="520" y1="600" x2="1360" y2="600"/>
+  </g>
+  <g fill="#2a2620">
+    <rect x="626" y="300" width="46" height="60"/>
+    <rect x="700" y="240" width="60" height="46"/>
+    <rect x="786" y="330" width="52" height="70"/>
+    <rect x="880" y="250" width="64" height="52"/>
+    <rect x="962" y="350" width="44" height="58"/>
+    <rect x="1050" y="270" width="58" height="66"/>
+    <rect x="1150" y="380" width="66" height="48"/>
+    <rect x="1240" y="300" width="52" height="62"/>
+    <rect x="660" y="470" width="70" height="52"/>
+    <rect x="900" y="480" width="58" height="60"/>
+    <rect x="1120" y="500" width="64" height="46"/>
+  </g>
+  <g fill="none" stroke="#3d3830" stroke-width="6">
+    <path d="M520 400 L700 400 L820 470 L1000 470 L1120 400 L1360 400"/>
+    <path d="M760 200 L760 380 L860 470 L860 680"/>
+  </g>
+  <g stroke="#d43a1f" stroke-width="1.5" opacity="0.55">
+    <line x1="700" y1="330" x2="820" y2="300"/>
+    <line x1="820" y1="300" x2="900" y2="400"/>
+    <line x1="900" y1="400" x2="1030" y2="360"/>
+    <line x1="1030" y1="360" x2="1160" y2="430"/>
+    <line x1="820" y1="300" x2="760" y2="430"/>
+    <line x1="900" y1="400" x2="860" y2="520"/>
+  </g>
+  <g fill="#d43a1f">
+    <circle cx="700" cy="330" r="7"/>
+    <circle cx="900" cy="400" r="9"/>
+    <circle cx="1030" cy="360" r="6"/>
+    <circle cx="760" cy="430" r="5"/>
+    <circle cx="860" cy="520" r="6"/>
+  </g>
+  <g fill="#e8a33d">
+    <circle cx="820" cy="300" r="8"/>
+    <circle cx="1160" cy="430" r="6"/>
+    <circle cx="980" cy="470" r="5"/>
+    <circle cx="660" cy="480" r="5"/>
+  </g>
+  <circle cx="900" cy="400" r="28" fill="none" stroke="#d43a1f" stroke-width="2" opacity="0.55"/>
+  <circle cx="900" cy="400" r="46" fill="none" stroke="#d43a1f" stroke-width="1.5" opacity="0.25"/>
+  <text x="548" y="238" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#8d8880">粒子地图 · Canvas</text>
+
+  <!-- 右侧：天气 -->
+  <rect x="1400" y="200" width="390" height="110" rx="10" fill="#221f18" stroke="#3a362e" stroke-width="2"/>
+  <circle cx="1452" cy="246" r="18" fill="#e8a33d"/>
+  <g stroke="#e8a33d" stroke-width="3">
+    <line x1="1452" y1="212" x2="1452" y2="220"/>
+    <line x1="1452" y1="272" x2="1452" y2="280"/>
+    <line x1="1418" y1="246" x2="1426" y2="246"/>
+    <line x1="1478" y1="246" x2="1486" y2="246"/>
+  </g>
+  <text x="1500" y="240" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#a29c92">晴</text>
+  <text x="1500" y="276" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#f7f5f0">27°C</text>
+  <rect x="1400" y="322" width="390" height="110" rx="10" fill="#221f18" stroke="#3a362e" stroke-width="2"/>
+  <path d="M1420 386 a16 16 0 0 1 16 -16 a20 20 0 0 1 38 -6 a16 16 0 0 1 12 22 Z" fill="#8d8880"/>
+  <g stroke="#d43a1f" stroke-width="4">
+    <line x1="1436" y1="398" x2="1432" y2="410"/>
+    <line x1="1456" y1="398" x2="1452" y2="410"/>
+    <line x1="1476" y1="398" x2="1472" y2="410"/>
+  </g>
+  <text x="1500" y="362" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#a29c92">小雨</text>
+  <text x="1500" y="398" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#f7f5f0">24°C</text>
+
+  <!-- 右侧：趋势图 -->
+  <rect x="1400" y="444" width="390" height="236" rx="10" fill="#221f18" stroke="#3a362e" stroke-width="2"/>
+  <text x="1424" y="482" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#a29c92">24 小时交通流量</text>
+  <line x1="1424" y1="520" x2="1766" y2="520" stroke="#322e26" stroke-width="1"/>
+  <line x1="1424" y1="560" x2="1766" y2="560" stroke="#322e26" stroke-width="1"/>
+  <line x1="1424" y1="600" x2="1766" y2="600" stroke="#322e26" stroke-width="1"/>
+  <polyline points="1424,600 1484,570 1544,582 1604,536 1664,552 1724,510 1766,528" fill="none" stroke="#d43a1f" stroke-width="3"/>
+  <line x1="1424" y1="640" x2="1766" y2="640" stroke="#3a362e" stroke-width="2"/>
+  <text x="1424" y="668" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" fill="#8d8880">00:00 — 24:00</text>
+
+  <text x="110" y="776" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="26" fill="#8d8880" letter-spacing="2">TypeScript · HTML/CSS · Canvas · SVG · ECharts</text>
+</svg>

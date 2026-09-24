@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阮伟杰 · 个人作品集</title>
+  <meta name="description" content="个人作品集网站：展示个人介绍、技能方向与项目作品。">
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+
+  <!-- ===================== 顶部导航 ===================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-mark">阮</span>
+        <span class="brand-name">阮伟杰</span>
+      </a>
+      <nav class="site-nav" id="siteNav" aria-label="主导航">
+        <a href="#works" class="nav-link">作品 Works</a>
+        <a href="#about" class="nav-link">关于 About</a>
+        <a href="#contact" class="nav-link">联系 Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 首屏 Hero ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <p class="kicker reveal">PORTFOLIO &mdash; 2026 &middot; 软件工程 &middot; 在读</p>
+        <h1 class="hero-title reveal">
+          把想法<br>
+          <em>做成</em>作品<span class="accent-dot">。</span>
+        </h1>
+        <div class="hero-rule reveal"></div>
+        <div class="hero-meta reveal">
+          <p class="hero-bio">
+            你好，我是阮伟杰。一名软件工程专业学生，目前主要关注
+            <span class="hl">AI 辅助开发</span>与<span class="hl">大语言模型技术</span>，
+            也在持续学习前后端开发与<span class="hl">数据可视化</span>。
+            这里收录了我近年完成的项目经历，欢迎浏览、指正与合作。
+          </p>
+          <a href="#works" class="scroll-hint">向下浏览作品<span class="arrow">&darr;</span></a>
+        </div>
+        <div class="hero-block" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ===================== 项目作品 ===================== -->
+    <section class="works" id="works">
+      <div class="section-head">
+        <p class="kicker reveal">SELECTED WORKS</p>
+        <h2 class="section-title reveal">精选项目</h2>
+        <div class="filter-bar reveal" id="filterBar" role="tablist" aria-label="项目类别筛选">
+          <!-- 筛选按钮由 JS 根据项目数据生成 -->
+        </div>
+      </div>
+
+      <div class="works-list" id="worksList">
+        <!-- 项目区块由 JS 依据 js/projects.js 渲染 -->
+      </div>
+    </section>
+
+    <!-- ===================== 关于我 ===================== -->
+    <section class="about" id="about">
+      <div class="about-inner">
+        <div class="about-main">
+          <p class="kicker reveal">ABOUT ME</p>
+          <h2 class="section-title reveal">关于我</h2>
+          <p class="about-text reveal">
+            我叫阮伟杰，是一名软件工程专业学生，目前主要关注 AI 辅助开发与大语言模型技术。
+            平时主要使用 Python、Java 和 TypeScript 进行项目开发，
+            也在持续学习前后端开发、数据可视化和 AI 应用构建。
+          </p>
+          <div class="skills reveal">
+            <h3 class="skills-title">技能方向 <span>SKILLS</span></h3>
+            <ul class="skill-list">
+              <li><span class="skill-index">01</span>
+                <div><strong>Python / Java / TypeScript</strong><p>平时主要使用的项目开发语言</p></div>
+              </li>
+              <li><span class="skill-index">02</span>
+                <div><strong>HTML / CSS</strong><p>页面结构与样式开发</p></div>
+              </li>
+              <li><span class="skill-index">03</span>
+                <div><strong>当前方向</strong><p>AI 辅助开发、大语言模型应用</p></div>
+              </li>
+              <li><span class="skill-index">04</span>
+                <div><strong>持续学习</strong><p>前后端开发、数据可视化、AI 应用构建</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <aside class="about-side reveal">
+          <div class="side-block">
+            <h4>EDUCATION</h4>
+            <p>软件工程专业<br>广州软件学院 &middot; 在读</p>
+          </div>
+          <div class="side-block">
+            <h4>ELSEWHERE</h4>
+            <ul class="side-links">
+              <li><a href="https://github.com/RuanDada1225" target="_blank" rel="noopener">GitHub &nearr;</a></li>
+              <li><a href="mailto:1398727187@qq.com">Email &nearr;</a></li>
+              <li><span class="side-item">微信：RuanDada2001</span></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== 联系方式 ===================== -->
+    <footer class="contact" id="contact">
+      <div class="contact-inner">
+        <p class="kicker reveal">GET IN TOUCH</p>
+        <h2 class="contact-title reveal">
+          有想法？<br>
+          <a href="mailto:1398727187@qq.com" class="contact-mail">1398727187@qq.com</a>
+        </h2>
+        <p class="contact-note reveal">微信：RuanDada2001 &middot; GitHub：RuanDada1225 &middot; 所在地：中国·广州</p>
+        <div class="footer-rule"></div>
+        <p class="copyright">&copy; 2026 阮伟杰 &mdash; 个人作品集</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/projects.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
+</body>
+</html>

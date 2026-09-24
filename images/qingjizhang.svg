@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="轻记账：微信小程序记账界面示意，含语音记账、月度统计与预算提醒">
+  <rect width="1600" height="1000" fill="#f7f5f0"/>
+  <rect x="1150" y="60" width="380" height="380" fill="#d43a1f" opacity="0.10"/>
+  <rect x="1110" y="20" width="56" height="56" fill="none" stroke="#d43a1f" stroke-width="2"/>
+
+  <!-- 手机外框 -->
+  <rect x="200" y="110" width="520" height="780" rx="52" fill="#17150f"/>
+  <rect x="224" y="134" width="472" height="732" rx="34" fill="#fdfcf9"/>
+
+  <!-- 标题 -->
+  <text x="264" y="228" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="46" font-weight="700" fill="#17150f">轻记账</text>
+  <text x="264" y="266" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#8d8880">2025 年 4 月 · 本月结余</text>
+
+  <!-- 语音记账 -->
+  <rect x="264" y="296" width="212" height="62" rx="31" fill="#d43a1f"/>
+  <rect x="298" y="312" width="18" height="28" rx="9" fill="#f7f5f0"/>
+  <path d="M292 330 a15 15 0 0 0 30 0" fill="none" stroke="#f7f5f0" stroke-width="3"/>
+  <line x1="307" y1="345" x2="307" y2="352" stroke="#f7f5f0" stroke-width="3"/>
+  <text x="340" y="337" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" fill="#f7f5f0">语音记账</text>
+
+  <!-- 月度统计 -->
+  <rect x="264" y="390" width="392" height="250" rx="14" fill="#efece4"/>
+  <text x="288" y="428" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="26" font-weight="700" fill="#17150f">月度统计</text>
+  <circle cx="296" cy="456" r="6" fill="#17150f"/>
+  <text x="310" y="463" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#55504a">收入</text>
+  <circle cx="384" cy="456" r="6" fill="#d43a1f"/>
+  <text x="398" y="463" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#55504a">支出</text>
+  <rect x="300" y="526" width="26" height="70" fill="#17150f"/>
+  <rect x="350" y="556" width="26" height="40" fill="#d43a1f"/>
+  <rect x="400" y="486" width="26" height="110" fill="#17150f"/>
+  <rect x="450" y="536" width="26" height="60" fill="#d43a1f"/>
+  <rect x="500" y="508" width="26" height="88" fill="#17150f"/>
+  <rect x="550" y="550" width="26" height="46" fill="#d43a1f"/>
+  <line x1="288" y1="596" x2="632" y2="596" stroke="#dcd8ce" stroke-width="2"/>
+  <text x="288" y="624" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#8d8880">收入 ¥ 3,200 · 支出 ¥ 1,180</text>
+
+  <!-- 预算提醒 -->
+  <rect x="264" y="660" width="392" height="96" rx="14" fill="#fdfcf9" stroke="#dcd8ce" stroke-width="2"/>
+  <text x="288" y="694" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#17150f">预算提醒</text>
+  <rect x="288" y="706" width="344" height="14" rx="7" fill="#e4e0d6"/>
+  <rect x="288" y="706" width="206" height="14" rx="7" fill="#d43a1f"/>
+  <text x="288" y="742" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" fill="#8d8880">已用 60% · 剩余 ¥ 800</text>
+
+  <!-- 最近记录 -->
+  <text x="264" y="790" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#8d8880">最近记录</text>
+  <text x="264" y="822" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="19" fill="#55504a">早餐 −12.00    地铁 −4.00    兼职 +200.00</text>
+
+  <!-- 趋势图 -->
+  <rect x="800" y="250" width="680" height="470" rx="14" fill="#efece4"/>
+  <text x="840" y="312" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17150f">月度收支趋势</text>
+  <text x="840" y="346" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#8d8880">近 6 个月</text>
+  <line x1="840" y1="400" x2="1440" y2="400" stroke="#dcd8ce" stroke-width="2"/>
+  <line x1="840" y1="460" x2="1440" y2="460" stroke="#dcd8ce" stroke-width="2"/>
+  <line x1="840" y1="520" x2="1440" y2="520" stroke="#dcd8ce" stroke-width="2"/>
+  <line x1="840" y1="580" x2="1440" y2="580" stroke="#dcd8ce" stroke-width="2"/>
+  <line x1="840" y1="640" x2="1440" y2="640" stroke="#dcd8ce" stroke-width="2"/>
+  <path d="M880 640 L880 600 L980 540 L1080 570 L1180 470 L1280 500 L1380 430 L1380 640 Z" fill="#d43a1f" opacity="0.14"/>
+  <polyline points="880,600 980,540 1080,570 1180,470 1280,500 1380,430" fill="none" stroke="#d43a1f" stroke-width="4"/>
+  <circle cx="880" cy="600" r="6" fill="#fdfcf9" stroke="#d43a1f" stroke-width="3"/>
+  <circle cx="980" cy="540" r="6" fill="#fdfcf9" stroke="#d43a1f" stroke-width="3"/>
+  <circle cx="1080" cy="570" r="6" fill="#fdfcf9" stroke="#d43a1f" stroke-width="3"/>
+  <circle cx="1180" cy="470" r="6" fill="#fdfcf9" stroke="#d43a1f" stroke-width="3"/>
+  <circle cx="1280" cy="500" r="6" fill="#fdfcf9" stroke="#d43a1f" stroke-width="3"/>
+  <circle cx="1380" cy="430" r="6" fill="#fdfcf9" stroke="#d43a1f" stroke-width="3"/>
+  <circle cx="852" cy="690" r="6" fill="#d43a1f"/>
+  <text x="866" y="697" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#55504a">支出</text>
+  <circle cx="950" cy="690" r="6" fill="#17150f"/>
+  <text x="964" y="697" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#55504a">收入</text>
+
+  <line x1="120" y1="900" x2="1480" y2="900" stroke="#dcd8ce" stroke-width="2"/>
+  <text x="120" y="950" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="26" fill="#8d8880" letter-spacing="2">TypeScript · 微信小程序 · 微信云开发 · ECharts</text>
+</svg>
