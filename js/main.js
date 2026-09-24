@@ -10,6 +10,28 @@
   const header = document.getElementById("siteHeader");
   const navToggle = document.getElementById("navToggle");
   const siteNav = document.getElementById("siteNav");
+  const themeToggle = document.getElementById("themeToggle");
+  const root = document.documentElement;
+
+  /* ---------- 0. 深浅色主题 ---------- */
+
+  function getPreferredTheme() {
+    const saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") return saved;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+
+  function applyTheme(theme) {
+    root.dataset.theme = theme;
+    const isDark = theme === "dark";
+    themeToggle.setAttribute("aria-pressed", String(isDark));
+    themeToggle.setAttribute("aria-label", isDark ? "切换到浅色主题" : "切换到深色主题");
+    localStorage.setItem("theme", theme);
+  }
+
+  themeToggle.addEventListener("click", function () {
+    applyTheme(root.dataset.theme === "dark" ? "light" : "dark");
+  });
 
   /* ---------- 1. 渲染项目 ---------- */
 
@@ -160,6 +182,7 @@
 
   /* ---------- 启动 ---------- */
 
+  applyTheme(getPreferredTheme());
   renderWorks();
   renderFilters();
   initReveal();
